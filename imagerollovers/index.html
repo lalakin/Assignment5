@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignment 5, Part 3 - Image Rollovers</title>
+<script>
+//02: Helper function to retrienve the ID of each image
+
+//03: Rollover function that performs the rollover effect on each image
+    //04: Create a copy of this function and store it in a variable
+	
+	//05: Create 3 new properties including newImageURL, image, and oldImageURL
+    	//06: Store the new image URL in a property
+    	//07: Store the old image's ID in a property
+    	//08: Store the old image URL in a property
+
+    //09, 10, 11: Attach onmouseover and onmouseout event handlers to target.image property
+
+//12, 13: Event handler to create 5 new Rollover objects once the page loads
+	
+//window.addEventListener("load", init, false);
+//function init() {
+//	var img1 = new Rollover("image1", "home_over.png");
+//	var img2 = new Rollover("image2", "aboutus_over.png");
+//	var img3 = new Rollover("image3", "solutions_over.png");
+//	var img4 = new Rollover("image4", "support_over.png");
+//	var img5 = new Rollover("image5", "contactus_over.png");
+//}
+//
+//function getImage(imageId) {
+//	var image = document.getElementById("image1").src;
+//	return image;
+//	//document.getElementById("demo").innerHTML = image;
+//}	
+//	
+//function Rollover(imageId, newImageURL) {
+//	this.imageId = imageId;
+//	this.newImageURL = newImageURL;
+//	}
+//
+//var target = new Rollover("image1", "home_over.png");
+//
+//target.imageId;	
+//target.newImageURL;
+//target.oldImageURL = getImage(target.imageId); 
+//
+//target.image.onmouseover = function() {
+//	image.src = newImageURL;
+//};
+//target.image.onmouseout = function() {
+//	image.src = oldImageURL;
+//};	
+
+	
+//New Try	
+//window.addEventListener("load", init, false);
+//function init() {
+//	var img1 = new Rollover("image1", "home_over.png");
+//	var img2 = new Rollover("image2", "aboutus_over.png");
+//	var img3 = new Rollover("image3", "solutions_over.png");
+//	var img4 = new Rollover("image4", "support_over.png");
+//	var img5 = new Rollover("image5", "contactus_over.png");
+//}
+//	
+////function getImage(imageId) {
+////	var oldImageURL = document.getElementById("image1").src;
+////	return oldImageURL;	
+////}
+//
+//function Rollover(imageId, newImageURL) {
+//	this.image = imageId;
+//	this.newImageURL = newImageURL;
+//	this.oldImageURL = function getImage(imageId) {
+//		var oldImageURL = document.getElementById("imageId").src;
+//	return oldImageURL;	
+//	}
+//	this.image.onmouseover = function() {
+//		image.src = newImageURL;
+//}	
+//	this.image.onmouseout = function() {
+//		image.src = oldImageURL;
+//}	
+//}
+	
+	
+	
+	
+//function rollover(image) {
+//	image.src = "home_over.png";
+//}
+//function mouseaway(image) {
+//	image.src = "home.png";
+//}	
+	
+</script>	
+</head>
+
+<body>
+	<!-- 01 -->
+<!--    <img id = "image1" src="home.png" onmouseover="rollover(this)" onmouseout="mouseaway(this)">-->
+<!--
+    <img id = "image1" src="home.png">
+	<img id = "image2" src="aboutus.png">
+    <img id = "image3" src="solutions.png">
+    <img id = "image4" src="support.png">
+    <img id = "image5" src="contactus.png">
+	
+	<p id = "demo"></p>
+	<button onclick="getImage()">Try</button>
+-->
+<!--
+	<img id = "image1" src="home_over.png">
+    <img id = "image2" src="aboutus_over.png">
+    <img id = "image3" src="solutions_over.png">
+    <img id = "image4" src="support_over.png">
+    <img id = "image5" src="contactus_over.png">
+-->
+
+	
+</body>
+</html>
